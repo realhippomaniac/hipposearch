@@ -13,7 +13,7 @@ def prompt():
         print("portscan: nmaps with default scripts and version")
 
         prompt()
-       elif "shodan" in ah[0:]:
+    elif "shodan" in ah[0:]:
         print("[+] Searching Shodan [+]")
         print("+-+-+-+-+-+-+-+-+-+-+-+")
         shodan(ah)
